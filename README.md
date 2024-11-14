@@ -22,4 +22,18 @@ float dot_product_stddevs_weight = 1000;//k临近点最小二乘距离标准差�
 float alpha = 0.15;float beta = 0.15;  
 float alpha_step2 = 0.075;float beta_step2 = 0.15;  
 float alpha_step3 = 0.075;float beta_step3 = 0.15;  
-
+![image](https://github.com/user-attachments/assets/8927d12f-19f7-429e-94c8-799aaca2b9e4)  
+实验数据 fandisk-groundtruth.pcd      int  K = 25;// 使用 K 个最近邻点  
+float normal_angle_stddevs_weight = 500;//法线夹角标准差权重参数  
+float dot_product_stddevs_weight = 100;//k临近点最小二乘距离标准差权重参数  
+float alpha = 0.15;float beta = 0.15;  
+float alpha_step2 = 0.075;float beta_step2 = 0.15;  
+float alpha_step3 = 0.075;float beta_step3 = 0.15;  
+![image](https://github.com/user-attachments/assets/02d02faf-2062-449b-8172-7ee32bebfe2b)  
+实验数据 fandisk-normdirectionnoise0.25.pcd      int  K = 25;// 使用 K 个最近邻点  
+float normal_angle_stddevs_weight = 500;//法线夹角标准差权重参数  
+float dot_product_stddevs_weight = 100;//k临近点最小二乘距离标准差权重参数  
+float alpha = 0.15;float beta = 0.15;  
+float alpha_step2 = 0.075;float beta_step2 = 0.15;  
+float alpha_step3 = 0.075;float beta_step3 = 0.15;  
+注意！以上实验结果仅调整了几次，未必是最佳结果。  
