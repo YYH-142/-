@@ -14,4 +14,12 @@ float normal_angle_stddevs_weight = 2000;//法线夹角标准差权重参数
 float dot_product_stddevs_weight = 2000;//k临近点最小二乘距离标准差权重参数  
 float alpha = 0.15;float beta = 0.15;  
 float alpha_step2 = 0.075;float beta_step2 = 0.15;  
-float alpha_step3 = 0.075;float beta_step3 = 0.15;
+float alpha_step3 = 0.075;float beta_step3 = 0.15;  
+![image](https://github.com/user-attachments/assets/b0a11c76-8bf7-48e6-ba5e-1d21a18da2ab)  
+实验数据 block-smooth-randomdirectionnoise0.35.pcd      int  K = 15;// 使用 K 个最近邻点  
+float normal_angle_stddevs_weight = 1000;//法线夹角标准差权重参数  
+float dot_product_stddevs_weight = 1000;//k临近点最小二乘距离标准差权重参数  
+float alpha = 0.15;float beta = 0.15;  
+float alpha_step2 = 0.075;float beta_step2 = 0.15;  
+float alpha_step3 = 0.075;float beta_step3 = 0.15;  
+
