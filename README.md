@@ -9,7 +9,7 @@
 计划11.14继续寻找循环step2的结果为什么有问题，剩余时间看论文  
 11.14计划施行情况：已经找到bug（可视化的坐标没有随循环更新），现在已经得到正确的实验结果。论文正在看。  
 ![image](https://github.com/user-attachments/assets/e3d76067-7b68-41ba-b1a0-582e5a84c0ce)  
-实验数据 block-smooth-groundtruth.pcdint   K = 10;// 使用 K 个最近邻点  
+实验数据 block-smooth-groundtruth.pcd      int  K = 10;// 使用 K 个最近邻点  
 float normal_angle_stddevs_weight = 2000;//法线夹角标准差权重参数  
 float dot_product_stddevs_weight = 2000;//k临近点最小二乘距离标准差权重参数  
 float alpha = 0.15;float beta = 0.15;  
