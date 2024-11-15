@@ -39,3 +39,7 @@ float alpha_step3 = 0.075;float beta_step3 = 0.15;
 注意！以上实验结果仅调整了几次，未必是最佳结果。  
 
 计划11.15看论文，寻找创新点
+11.15计划施行情况：论文看了一部分，记录论文要点。  
+4.1 Feature-edge identification  该部分通过计算二面角与边缘检测得到“特征线”（i.e.尖锐部分与边缘）  
+4.2 Preliminary input-mesh optimization  利用[Hoppe et al. 1993]论文的策略重新构建三角网格，并在构建过程中保证“特征线”不变，然后在“特征线”周围自适应调整  
+Mesh Optimization. In Proceedings of the 20th Annual Conference on Computer Graphics and Interactive Techniques (Anaheim, CA)
