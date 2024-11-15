@@ -40,6 +40,8 @@ float alpha_step3 = 0.075;float beta_step3 = 0.15;
 
 计划11.15看论文，寻找创新点
 11.15计划施行情况：论文看了一部分，记录论文要点。  
-4.1 Feature-edge identification  该部分通过计算二面角与边缘检测得到“特征线”（i.e.尖锐部分与边缘）  
-4.2 Preliminary input-mesh optimization  利用[Hoppe et al. 1993]论文的策略重新构建三角网格，并在构建过程中保证“特征线”不变，然后在“特征线”周围自适应调整  
-Mesh Optimization. In Proceedings of the 20th Annual Conference on Computer Graphics and Interactive Techniques (Anaheim, CA)
+4.1 Feature-edge identification  该部分通过计算二面角与边缘检测得到“特征线”（i.e.尖锐部分与边缘） 
+
+4.2 Preliminary input-mesh optimization  利用[Hoppe et al. 1993]论文的策略重新构建三角网格，并在构建过程中保证“特征线”不变，然后在“特征线”周围自适应调整   Mesh Optimization. In Proceedings of the 20th Annual Conference on Computer Graphics and Interactive Techniques (Anaheim, CA)  
+
+4.3 Cross-field definition  通过在每个三角形中分配一个与“特征线”对齐的切线方向，在输入表面上构造一个Cross-field。step1:将与多个“特征线”相邻的网格进行分割，直到最多相邻一个“特征线”。step2:将与“特征线”方向匹配的场值分配给相邻的任何面。step3:利用[Diamanti et al. 2014]策略扩散。Designing N-PolyVector Fields with Complex Polynomials
