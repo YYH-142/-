@@ -14,5 +14,10 @@
 
 12.19-12.26看论文，寻找创新点，组会汇报。idea:利用四边形网格化论文中交叉场的方法提取特征  
 
-12.26-12.31调研特征提取相关论文（阅读Feature Lines Extraction of Triangle Meshes Based on Local Sampling and 
-Tracking），复习博士生资格考试内容 
+12.26-12.31调研特征提取相关论文，暂未发现与idea重复的论文，调研方法：google全网关键词搜索 ，阅读特征提取相关论文（Feature Lines Extraction of Triangle Meshes Based on Local Sampling and Tracking）
+
+后续计划： 
+
+1. 从四边形网格化论文出发，调研其引用与被引用，确保没有与idea重复的论文
+
+2. 复习博士生资格考试，我准备把工作重心放在复习上，确保能够通过 
